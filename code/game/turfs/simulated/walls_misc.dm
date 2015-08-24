@@ -32,3 +32,22 @@
 	icon_state = "rrust"
 	walltype = "rrust"
 	hardness = 15
+
+/turf/simulated/wall/concerete
+	name = "concrete wall"
+	desc = "A concreted wall"
+	icon = 'icons/turf/concrete.dmi'
+	icon_state = "concrete0"
+	walltype = "concrete"
+	hardness = 60
+
+/turf/simulated/wall/brickwall
+	name = "wall"
+	desc = "A bricked wall"
+	icon = 'icons/turf/aprilfools.dmi'
+	icon_state = "brick_wall"
+	walltype = "brick"
+	hardness = 60
+
+
+

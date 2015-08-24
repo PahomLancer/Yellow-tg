@@ -23,6 +23,29 @@
 	icon_state = "rockvault"
 	floor_tile = /obj/item/stack/tile/plasteel
 
+/turf/simulated/floor/frozen
+	name = "ground"
+	icon = 'icons/turf/ground.dmi'
+	icon_state = "ground_frozen"
+	temperature = 263.15
+	luminosity = 1
+
+/turf/simulated/floor/rail
+	name = "railroad"
+	icon = 'icons/misc/railroads.dmi'
+	icon_state = "railroad"
+
+/turf/simulated/floor/rail2
+	name = "railroad"
+	icon = 'icons/misc/Rails.dmi'
+	icon_state = "rail_straight"
+
+/turf/simulated/floor/road
+	name = "road"
+	icon = 'icons/misc/roads.dmi'
+	icon_state = "test"
+	luminosity = 1
+
 /turf/simulated/floor/bluegrid
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "bcircuit"
@@ -111,6 +134,7 @@
 	name = "snow"
 	icon = 'icons/turf/snow.dmi'
 	icon_state = "snow"
+	luminosity = 1
 
 /turf/simulated/floor/plating/snow/ex_act(severity, target)
 	contents_explosion(severity, target)

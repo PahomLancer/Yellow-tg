@@ -9,7 +9,7 @@ var/global/list/rockTurfEdgeCache
 /turf/simulated/mineral //wall piece
 	name = "rock"
 	icon = 'icons/turf/mining.dmi'
-	icon_state = "rock_nochance"
+	icon_state = "rock"
 	oxygen = 0
 	nitrogen = 0
 	opacity = 1

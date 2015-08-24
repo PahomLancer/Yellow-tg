@@ -286,3 +286,9 @@ obj/item/clothing/mask/gas/clown_hat/attack_self(mob/user)
 	desc = "Twoooo!"
 	flags = MASKCOVERSEYES | BLOCK_GAS_SMOKE_EFFECT | MASKINTERNALS
 	icon_state = "owl"
+
+/obj/item/clothing/mask/gas/metro
+	name = "gas mask"
+	desc = "Gas Mask"
+	flags = MASKCOVERSEYES | BLOCK_GAS_SMOKE_EFFECT | MASKINTERNALS
+	icon_state = "gas_alt"

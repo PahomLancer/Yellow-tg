@@ -1577,6 +1577,13 @@ proc/process_ghost_teleport_locs()
 /area/awaycontent/a30
 	icon_state = "awaycontent30"
 
+//Planet
+/area/Polar
+	name = "polar"
+	icon_state = "unknown"
+	luminosity = 10
+	has_gravity = 1
+
 
 /////////////////////////////////////////////////////////////////////
 /*
